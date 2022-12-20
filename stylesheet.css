@@ -1,0 +1,235 @@
+body{
+	margin:0;
+	padding:0;
+	background:white;
+	font-family:arial;
+	
+}
+ 
+.nav{
+	 height:50px;
+	 background:#ccc;
+ }
+
+
+ .nav div{
+	 display:inline-block;
+	 position:absolute;
+	 left:0;
+	 padding:15px;
+	 font-size:25px;
+	 font-weight:bold;
+	 color:black;
+ }
+ .nav ul{
+	 position:absolute;
+	 right:5px;
+ }
+  .nav ul li{
+	 display:inline-block;
+	 padding:0 20px;
+	 border-right:1px solid transparent;
+	 text-decoration:none;
+	 color:black;
+ }
+.nav ul li a:hover,.active a{
+	 background-color:white;
+	 padding:5px;
+	 
+ }
+ 
+ 
+ .nav ul a{
+	 text-decoration:none;
+	 color:black;
+ }
+	 
+
+	
+	.home body{
+	margin:0 auto;
+	width:70%;
+	
+}
+.slider{
+	overflow:hidden;
+	height:800px;
+
+}
+.slider figure div{
+	float:left;
+	width:20%;
+	
+}
+.slider figure img{
+	width:100%;
+	float:left;
+	height:93vh;
+}
+.slider figure{
+	position:relative;
+	width:500%;
+	margin:0px;
+	left:0;
+	animation:35s animate infinite;
+	
+}
+@keyframes animate{
+	0%,96%,10%{
+		left:0%;
+	  }
+	  
+	  12%,22%,84%,94%{
+		left:-100%;
+	  }
+	
+	  24%,34%,72%,82%{
+		left:-200%;
+	  }
+	  
+	   36%,46%,60%,70%{
+		left:-300%;
+	  }
+	  
+	   48%,58%{
+		left:-400%;
+	  }
+	 
+	   
+	 
+	  
+}
+
+
+	
+
+
+
+.about .about-content{
+	margin:120px auto 120px 80px;
+	width:500px;
+	}
+	 
+	 
+	 .about .about-content h1{
+		 text-align:left;
+		 
+		 
+	 }
+	  .about .about-content p{
+		 font-size:20px;
+		 text-align:justify;
+		 font-family:arial;
+		 
+		
+	  }
+		 .about {
+			 background-image:url("./images/about-us.png");
+			 background-repeat:no-repeat;
+			 background-position:90% 40%;
+			 height:140vh;
+			 background-color:rgb(89,179,213);
+			 
+			 
+		 }
+.admin {
+	margin:0;
+	padding:0;
+	background-image:url("./images/admin_login.png");
+	background-repeat:no-repeat;
+	background-size:600px 600px;
+	background-position:center;
+	background-color:#cccc;
+	height:102vh;
+	width:100%;
+	
+
+}
+
+.admin .admin-content1 div{
+	position:absolute;
+	left:50px;
+	text-align:center;
+	
+}
+
+
+.admin .admin-content2 div{
+	position:absolute;
+	right:50px;
+	top:0px;
+	text-align:center;
+	padding:10px 10px;
+}
+	.admin .admin-content3 div {
+		position:absolute;
+		bottom:60px;
+		left:580px;
+		
+		
+	}
+	.admin .admin-content3 table td a{
+		position:absolute;
+		
+		display:block;
+		left:20px;
+		border:2px solid black;
+		padding:10px 10px;
+		text-decoration:none;
+		color:black;
+	}
+	
+ .admin .admin-content ul li {
+	list-style:none;
+	
+}
+ .admin .admin-content ul li a{
+	 text-decoration:none;
+	 color:black;
+	 border:2px solid black;
+	padding:10px 10px;
+	     display: block;
+ }
+	
+	
+	.admin .admin-content   ul li a:hover,.registration .registration-content ul li a:hover,.goback a:hover,.admin .admin-content3 a:hover{
+		background-color:white;
+		}
+		
+.goback a{
+	border:1px solid black;
+	text-decoration:none;
+	margin-left:1000px;
+	
+}
+.registration-content .active a{
+	background-color:white;
+}
+.view {
+	background-image:url("./images/texture.jpg");
+	height:100vh;
+	
+}
+.logout{
+		background-image:url("./images/texture.jpg");
+		height:100vh;
+}
+ .contact{
+	background-image:url("./images/texture_grey.jpg");
+	background-size:cover;
+	height:100vh;
+	
+}
+.contact .address-holder ul li{
+	list-style:none;
+	font-size:25px;
+	text-align:justify;
+	display:inline-block;
+	margin:10px;
+	padding-left:160px;
+	padding-top:20px;
+}
+.login{
+	background-image:url("./images/texture.jpg");
+	height:100vh;
+}
